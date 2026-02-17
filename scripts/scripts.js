@@ -36,7 +36,6 @@ const allProduct = async () => {
 const allLevelProductShow = (products) => {
 
     const containerProduct = document.getElementById("containerProduct");
-    containerProduct.innerHTML = "AShraf";
 
     products.forEach(ele => {
 
